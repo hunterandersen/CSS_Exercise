@@ -1,0 +1,54 @@
+/* Selects any tag in your HTML that has a class of nav-link */
+.nav-link {
+  color: orange;
+  text-decoration: none;
+}
+
+/* Alt Shift F will run prettier */
+
+/* Selects the main tag in your HTML */
+main {
+  max-width: 600px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Selects any section tag in your HTML */
+section {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border: 3px dotted orange;
+    padding: 16px;
+}
+
+/* Selects the first element it can find that has an id equal to "title" */
+#title {
+    font-size: 40px;
+    font-weight: 800; /* font weight controls how bold the text is */
+}
+
+/* Selects all the elements in your HTML that have a class equal to "d-inline" */
+.d-inline {
+    display: inline;
+} 
+
+/* This is selecting any unorderd list that is a direct child of a nav */
+nav > ul {
+    list-style: none;
+}
+
+body {
+    background-color: #222222;
+    color: #eee;
+}
+
+#avatar {
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
